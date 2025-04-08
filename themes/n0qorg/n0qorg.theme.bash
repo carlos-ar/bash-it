@@ -6,7 +6,7 @@
 # for example:
 # ananas ~/Code/bash-it/themes (master*)»
 function prompt_command() {
-    PS1="${bold_blue}[$(hostname)]${normal} \w${normal} ${bold_white}[$(git_prompt_info)]${normal}» "
+	PS1="${bold_blue}[$(hostname)]${normal} \w${normal} ${bold_white}[$(git_prompt_info)]${normal}» "
 }
 
 safe_append_prompt_command prompt_command
@@ -19,7 +19,7 @@ GIT_THEME_PROMPT_PREFIX="${bold_blue}(${bold_white}"
 GIT_THEME_PROMPT_SUFFIX="${bold_blue})"
 
 ## alternate chars
-# 
+#
 SCM_THEME_PROMPT_DIRTY="*"
 SCM_THEME_PROMPT_CLEAN=""
 SCM_THEME_PROMPT_PREFIX="("
